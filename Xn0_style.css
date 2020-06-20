@@ -51,7 +51,7 @@ button:hover{
     display: inline-block;
     margin: auto;
     padding: 7%;
-    min-width: 20px;
+    min-width: 5%;
     height: 20px;
     background-color: white;
     border: 5px solid black;
