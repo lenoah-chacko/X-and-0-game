@@ -1,0 +1,58 @@
+body{
+    background-image: linear-gradient(0deg, rgb(0, 0, 0), rgb(75, 66, 122));
+}
+button{
+    padding: 2% 3%;
+    float: right;
+    margin-top: 4%;
+    border-radius: 25%;
+    background-color: transparent;
+    border: 3px solid white;
+    font-family: monospace;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: slategray;
+}
+.wrapper{
+    width: 100%;
+}
+.game{
+    min-width: 20%;
+    min-height: 20%;
+    display: table;
+    margin: 0 auto;
+    background-color: chocolate;
+    padding: 2% 2% 1%;
+}
+.centered-text{
+    font-size: xx-large;
+    font-weight: 400;
+    text-align: center;
+    display: table;
+    margin: auto;
+}
+.puzzle{
+    min-height: 50%;
+    max-width: 100%;
+    display: span;
+    background-color: beige;
+    padding: 0.5%;
+}
+.row{
+    display: flex;
+    margin: 2%;
+    min-height: 13%;
+}
+.cell{
+    text-align: center;
+    font-size: xx-large;
+    display: inline-block;
+    margin: auto;
+    padding: 7%;
+    min-width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 5px solid black;
+}
